@@ -7,8 +7,8 @@
 # #     final=new.reverse
 # #     newarray.push(final)
 # #     i += 1 
-# #     last= newarray.join(" ") 
 # #   end 
+# # last= newarray.join(" ") 
 # # last
 # end
 def reverse_each_word(string)
