@@ -17,5 +17,9 @@ def reverse_each_word(string)
   split_str.each do |word|
     final= word.reverse
     newarray.push(final)
+  end
+  last = newarray.join
+  last
+end 
     
   
