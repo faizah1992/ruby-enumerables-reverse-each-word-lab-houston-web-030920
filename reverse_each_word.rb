@@ -4,3 +4,4 @@ while i<string do
   string[i]
   i += 1
 end
+end
