@@ -1,5 +1,5 @@
 def reverse_each_word (string)
- split_str=string.split
+ split_str=string.split(" ")
  i=0 
  newarray=[]
   while i<split_str.count do
