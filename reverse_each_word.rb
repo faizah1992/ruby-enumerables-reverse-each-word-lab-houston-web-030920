@@ -11,4 +11,11 @@
 # #   end 
 # # last
 # end
-
+def reverse_each_word(string)
+  split_str=string.split(" ")
+  newarray=[]
+  split_str.each do |word|
+    final= word.reverse
+    newarray.push(final)
+    
+  
