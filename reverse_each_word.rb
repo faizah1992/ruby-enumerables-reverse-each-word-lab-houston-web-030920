@@ -14,8 +14,7 @@
 def reverse_each_word(string)
   split_str=string.split(" ")
   newarray=split_str.collect do |word|
-    final= word.reverse
-    return final
+    word.reverse
   end
   last = newarray.join(" ")
   last
