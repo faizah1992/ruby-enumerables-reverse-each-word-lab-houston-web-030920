@@ -1,4 +1,5 @@
 def reverse_each_word (string)
 str=string.split
-str.reverse
+i=0 
+while i
 end
