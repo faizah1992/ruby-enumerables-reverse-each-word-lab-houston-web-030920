@@ -10,5 +10,6 @@ def reverse_each_word (string)
 #     last= newarray.join(" ") 
 #   end 
 # last
+
 end
 
