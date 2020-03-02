@@ -13,11 +13,11 @@
 # end
 def reverse_each_word(string)
   split_str=string.split(" ")
-  split_str.collect do |word|
+  newarray=split_str.collect do |word|
     final= word.reverse
     return final
   end
-  last = split_str.join(" ")
+  last = newarray.join(" ")
   last
 end 
     
