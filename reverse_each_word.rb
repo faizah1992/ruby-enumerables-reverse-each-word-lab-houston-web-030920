@@ -18,7 +18,7 @@ def reverse_each_word(string)
     final= word.reverse
     newarray.push(final)
   end
-  last = newarray.join
+  last = newarray.join(" ")
   last
 end 
     
